@@ -1,0 +1,55 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    display: grid;
+    grid-template-columns: .8fr 1.2fr;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.post .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131f24;
+}
+
+.post .texts h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.post .texts p {
+    font-size: .85em;
+    color: #ccc;
+}
+
+.post .texts .info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 0;
+    gap: 10px;
+    font-size: .8rem;
+    color: #cccccc82;
+}
+
+.post .texts .info a {
+    font-weight: bold;
+}
+
+.link {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .post {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+}

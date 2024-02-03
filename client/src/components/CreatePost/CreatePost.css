@@ -1,0 +1,61 @@
+.createPost {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.createPost .intro {
+    text-align: center;
+}
+
+.createPost .inputFields {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px 0;
+}
+.createPost .inputFields .inputField {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.createPost .inputFields .inputField label {
+    color: #ccccccf3;
+}
+
+.createPost .inputFields .inputField input{
+    height: 45px;
+    border: 1px solid #cccccc52;
+    border-radius: 4px;
+    background-color: #cccccc1b;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0 10px;
+}
+
+.createPost .inputFields input[type='file' ]{
+    padding-top: 10px;
+}
+
+.createPost .inputFields .buttonField {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createPost .inputFields .buttonField .createPostBtn {
+    height: 45px;
+    width: 120px;
+    background-color: rgb(19, 137, 255);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.createPost .inputFields .buttonField .createPostBtn:hover {
+    background-color: rgb(10, 112, 214);
+    transform: translateY(3px);
+}
